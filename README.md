@@ -1,13 +1,38 @@
 ### Abhay Juloori
 
-Data scientist building production ML systems at the intersection of finance and machine learning — credit risk, survival analysis, anomaly detection, and forecasting. I focus on the full stack: from model architecture through API serving and interactive front-ends.
+I build production-style ML and analytics systems that are meant to be used, not just trained. Most of my work sits at the intersection of credit risk, survival analysis, anomaly detection, forecasting, and decision-support tooling, with an emphasis on taking projects from modeling through APIs and usable front ends.
+
+I am especially interested in applied ML and data work where modeling, software, and product thinking meet.
 
 ---
 
-**Currently building**
+**What you'll find here**
 
-- [**LoanSurv**](https://github.com/AbhayJuloori/loansurv) — Survival analysis for loan default timing. Cox PH + Random Survival Forest on 2.2M Lending Club loans. Runs entirely in the browser via in-browser inference. [[live demo]](https://abhayjuloori.github.io/loansurv/)
-- [**Credit Recourse Engine**](https://github.com/AbhayJuloori/credit-recourse-engine) — Most credit models tell you *who* defaults. This one tells denied applicants *what to change*. XGBoost + MAPIE conformal prediction + DiCE counterfactual explanations.
+- End-to-end ML projects grounded in real decision contexts
+- Data systems with APIs, dashboards, evaluation workflows, and documentation
+- Projects that balance statistical rigor, implementation detail, and usability
+
+---
+
+**Selected projects**
+
+| Project | What it demonstrates |
+|---|---|
+| [**LoanSurv**](https://github.com/AbhayJuloori/loansurv) | Survival analysis for loan default timing on 2.2M Lending Club loans using Cox PH + Random Survival Forest, served through FastAPI with a React dashboard. [[live demo]](https://abhayjuloori.github.io/loansurv/) |
+| [**Credit Recourse Engine**](https://github.com/AbhayJuloori/credit-recourse-engine) | Actionable recourse for denied applicants using XGBoost, conformal prediction, and counterfactual explanations. |
+| [**Freight KPI Tracker**](https://github.com/AbhayJuloori/freight-kpi-tracker) | Freight analytics pipeline with synthetic generation seeded from FAF5, Snowflake loading, lane-level anomaly detection, and dashboarding. |
+| [**Controlled Document Retrieval**](https://github.com/AbhayJuloori/controlled-document-retrieval-compliance-tracking-system) | Compliance-focused retrieval system with role and jurisdiction filters, document lifecycle controls, and audit-ready citations. |
+| [**codex-claude-bridge**](https://github.com/AbhayJuloori/codex-claude-bridge) | Local orchestration bridge where Claude handles planning and review while Codex executes implementation-heavy work. |
+| [**opsmon**](https://github.com/AbhayJuloori/opsmon) | Data reliability monitoring for multi-source time series with anomaly, drift, missingness, and integrity checks. |
+
+---
+
+**How I like to build**
+
+- Start from a concrete decision or workflow, not just a benchmark
+- Make uncertainty, evaluation, and failure modes visible
+- Ship models with an interface: CLI, API, dashboard, or workflow
+- Document tradeoffs clearly enough that another engineer can pick the work up
 
 ---
 
@@ -15,23 +40,7 @@ Data scientist building production ML systems at the intersection of finance and
 
 ```
 ML/Data     Python · scikit-learn · XGBoost · lifelines · scikit-survival · PyTorch
-Data        pandas · SQL · Spark · Azure Synapse · Cosmos DB · pyarrow
-APIs        FastAPI · Pydantic · Docker · Azure Stream Analytics
-Frontend    React · Vite · Recharts · Tailwind CSS
+Data        pandas · SQL · Spark · Snowflake · Azure Synapse · Cosmos DB · pyarrow
+APIs        FastAPI · Pydantic · Docker
+Frontend    React · Vite · Plotly/Dash · Recharts · Tailwind CSS
 ```
-
----
-
-**Other projects**
-
-| Project | What it does |
-|---|---|
-| [opsmon](https://github.com/AbhayJuloori/opsmon) | Operational monitoring framework — anomaly detection, drift alerts, reliability cards |
-| [scenario-planning-analytics](https://github.com/AbhayJuloori/scenario-planning-analytics) | Urban demand forecasting for city service planning — Prophet + XGBoost |
-| [controlled-document-retrieval](https://github.com/AbhayJuloori/controlled-document-retrieval-compliance-tracking-system) | Hybrid compliance document retrieval with jurisdiction filters and audit citations |
-| [azure-stream-analytics](https://github.com/AbhayJuloori/azure-stream-analytics-project) | Real-time event stream processing with Azure Event Hubs and Power BI |
-| [MBS Prepayment](https://github.com/AbhayJuloori/Predicting-Mortgage-Backed-Securities-Prepayment) | Predicting mortgage-backed securities prepayment risk |
-
----
-
-<img src="https://github-readme-stats.vercel.app/api?username=AbhayJuloori&show_icons=true&hide_border=true&title_color=1C1917&icon_color=C2692A&text_color=78716C&bg_color=F4F1EC&hide=issues&count_private=true" height="150" alt="GitHub stats" />
