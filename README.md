@@ -1,46 +1,36 @@
 ### Abhay Juloori
 
-I build production-style ML and analytics systems that are meant to be used, not just trained. Most of my work sits at the intersection of credit risk, survival analysis, anomaly detection, forecasting, and decision-support tooling, with an emphasis on taking projects from modeling through APIs and usable front ends.
+Applied data scientist. I build analytical systems that turn uncertain data into decisions — from the data and model through to the interface someone actually uses — and I publish what the evidence does and doesn't support.
 
-I am especially interested in applied ML and data work where modeling, software, and product thinking meet.
+**Portfolio → [abhayjuloori.github.io](https://abhayjuloori.github.io)**
 
----
-
-**What you'll find here**
-
-- End-to-end ML projects grounded in real decision contexts
-- Data systems with APIs, dashboards, evaluation workflows, and documentation
-- Projects that balance statistical rigor, implementation detail, and usability
+Research Data Scientist at Procter & Gamble (2025–26) · previously Taiyo.AI and Technocolabs · MEng Computer Science, University of Cincinnati
 
 ---
 
-**Selected projects**
+**Selected work**
 
-| Project | What it demonstrates |
+| Project | What it shows |
 |---|---|
-| [**LoanSurv**](https://github.com/AbhayJuloori/loansurv) | Survival analysis for loan default timing on 2.2M Lending Club loans using Cox PH + Random Survival Forest, served through FastAPI with a React dashboard. [[live demo]](https://abhayjuloori.github.io/loansurv/) |
-| [**Credit Recourse Engine**](https://github.com/AbhayJuloori/credit-recourse-engine) | Actionable recourse for denied applicants using XGBoost, conformal prediction, and counterfactual explanations. |
-| [**Freight KPI Tracker**](https://github.com/AbhayJuloori/freight-kpi-tracker) | Freight analytics pipeline with synthetic generation seeded from FAF5, Snowflake loading, lane-level anomaly detection, and dashboarding. |
-| [**Controlled Document Retrieval**](https://github.com/AbhayJuloori/controlled-document-retrieval-compliance-tracking-system) | Compliance-focused retrieval system with role and jurisdiction filters, document lifecycle controls, and audit-ready citations. |
-| [**codex-claude-bridge**](https://github.com/AbhayJuloori/codex-claude-bridge) | Local orchestration bridge where Claude handles planning and review while Codex executes implementation-heavy work. |
-| [**opsmon**](https://github.com/AbhayJuloori/opsmon) | Data reliability monitoring for multi-source time series with anomaly, drift, missingness, and integrity checks. |
+| [**WikiPulse**](https://github.com/AbhayJuloori/wikipulse) · [live](https://abhayjuloori.github.io/wikipulse/) | Live Wikipedia edit patrol on Kafka → Spark Structured Streaming → Iceberg, idempotent under replays and late data, with an in-browser demo checked against 1,500+ real edits. |
+| [**Warehouse Fulfillment Digital Twin**](https://github.com/AbhayJuloori/warehouse-fulfillment-digital-twin) · [live](https://abhayjuloori.github.io/warehouse-fulfillment-digital-twin/) | SimPy shift simulation + Optuna search: the same 2-hour SLA on 22% less labor, confirmed on seeds the search never saw. |
+| [**Graph-Aware Fraud Detection**](https://github.com/AbhayJuloori/graph-aware-fraud-detection) · [live](https://abhayjuloori.github.io/graph-aware-fraud-detection/) | Time-safe graph features failed a promotion gate (+0.0004 PR-AUC), so the simpler model shipped — MLflow, FastAPI + TreeSHAP, drift monitoring. |
+| [**Freight KPI Tracker**](https://github.com/AbhayJuloori/freight-kpi-tracker) · [live](https://abhayjuloori.github.io/work/freight-kpi-tracker/) | Leakage-safe freight exception detection with an interactive review workbench and inspectable evidence. |
+
+**Also:** [Retail Demand Intelligence](https://github.com/AbhayJuloori/retail-demand-intelligence) · [LoanSurv](https://github.com/AbhayJuloori/loansurv) · [CareTarget](https://github.com/AbhayJuloori/hospital-readmission-targeting) · [Credit Recourse Engine](https://github.com/AbhayJuloori/credit-recourse-engine) · [Controlled Document Retrieval](https://github.com/AbhayJuloori/controlled-document-retrieval-compliance-tracking-system) · [codex-claude-bridge](https://github.com/AbhayJuloori/codex-claude-bridge)
+
+**Working on:** a bot for Colonist.io 1v1 ranked Catan — 74% paired score against Catanatron's AlphaBeta in simulation, and an honest list of where it's stuck [on the portfolio](https://abhayjuloori.github.io/#working-on).
 
 ---
 
-**How I like to build**
+**How I build**
 
-- Start from a concrete decision or workflow, not just a benchmark
-- Make uncertainty, evaluation, and failure modes visible
-- Ship models with an interface: CLI, API, dashboard, or workflow
-- Document tradeoffs clearly enough that another engineer can pick the work up
-
----
-
-**Stack**
+- Start from the decision, not the benchmark
+- Freeze the evaluation before reading the result; keep negative results on the record
+- Ship models with an interface — API, dashboard, or workflow
 
 ```
-ML/Data     Python · scikit-learn · XGBoost · lifelines · scikit-survival · PyTorch
-Data        pandas · SQL · Spark · Snowflake · Azure Synapse · Cosmos DB · pyarrow
-APIs        FastAPI · Pydantic · Docker
-Frontend    React · Vite · Plotly/Dash · Recharts · Tailwind CSS
+ML        Python · scikit-learn · XGBoost · LightGBM · PyTorch · SHAP · lifelines · Optuna
+Data      SQL · Spark · Kafka · Iceberg · Airflow · Snowflake · AWS S3 · MLflow
+Serving   FastAPI · Docker · Streamlit · Next.js · React · D3
 ```
